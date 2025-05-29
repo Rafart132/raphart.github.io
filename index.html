@@ -4,132 +4,95 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio de Raphart</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #0d0d0d;
-      --accent: #00ff88;
-      --text-color: #e0e0e0;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Fira Code', monospace;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      line-height: 1.6;
-    }
-
-    header {
-      padding: 2rem;
-      text-align: center;
-      background-color: #111;
-      border-bottom: 2px solid var(--accent);
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      color: var(--accent);
-    }
-
-    nav {
-      text-align: center;
-      margin-top: 1rem;
-    }
-
-    nav a {
-      margin: 0 1rem;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2 {
-      color: var(--accent);
-      margin-top: 2rem;
-      border-bottom: 1px solid var(--accent);
-      padding-bottom: 0.5rem;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    a.cert-link {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a.cert-link:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #111;
-      border-top: 1px solid var(--accent);
-      color: #888;
-      font-size: 0.9rem;
-    }
-  </style>
 </head>
 <body>
-
   <header>
     <h1>Raphart</h1>
-    <p>Desarrollador, creativo y aventurero digital.</p>
+    <p>Desarrollador y creativo digital con pasión por los videojuegos.</p>
     <nav>
+      <a href="#sobre-mi">Sobre mí</a>
       <a href="#certificados">Certificados</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
       <a href="#proyectos">Proyectos</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
-  <section id="certificados">
-    <h2>🎓 Certificados</h2>
-    <ul>
-      <li><a class="cert-link" href="https://link-a-certificado1.com" target="_blank">Curso de Programación - Plataforma X</a></li>
-      <li><a class="cert-link" href="https://link-a-certificado2.com" target="_blank">Introducción a Godot - Plataforma Y</a></li>
-      <li><a class="cert-link" href="https://link-a-certificado3.com" target="_blank">Narrativa para Videojuegos - Plataforma Z</a></li>
-    </ul>
-  </section>
+  <main>
+    <section id="sobre-mi">
+      <h2>👤 Sobre mí</h2>
+      <p>Soy Alejandro Medina, bachiller en Ciencias con experiencia en mantenimiento, cocina y ventas. Apasionado por el desarrollo de videojuegos y la tecnología. Me adapto rápidamente y disfruto trabajar en equipo y crear experiencias únicas.</p>
+    </section>
 
-  <section id="proyectos">
-    <h2>🛠️ Proyectos</h2>
-    <ul>
-      <li><strong>Juego de Terror 2D</strong> - Inspirado en "El lobo y los siete cabritos". IA de patrullaje y sistema de escenas.</li>
-      <li><strong>Pokémon Esmeralda Fangame</strong> - Reimaginación de Pokémon con mecánicas personalizadas en Godot.</li>
-      <li><strong>RPG de Amor y Profecías</strong> - Historia episódica de fantasía con personajes carismáticos.</li>
-    </ul>
-  </section>
+    <section id="certificados">
+      <h2>📜 Certificados</h2>
+      <ul>
+        <li><a href="#" target="_blank">Curso de Programación - Plataforma X</a></li>
+        <li><a href="#" target="_blank">Introducción a Godot - Plataforma Y</a></li>
+        <li><a href="#" target="_blank">Narrativa para Videojuegos - Plataforma Z</a></li>
+      </ul>
+    </section>
 
-  <section id="contacto">
-    <h2>📬 Contacto</h2>
-    <p>Puedes contactarme en:</p>
-    <ul>
-      <li>Email: <a class="cert-link" href="mailto:raphart@email.com">raphart@email.com</a></li>
-      <li>GitHub: <a class="cert-link" href="https://github.com/raphart" target="_blank">github.com/raphart</a></li>
-      <li>LinkedIn (si tienes uno): <a class="cert-link" href="https://linkedin.com/in/raphart" target="_blank">linkedin.com/in/raphart</a></li>
-    </ul>
-  </section>
+    <section id="experiencia">
+      <h2>💼 Experiencia laboral</h2>
+      <ul>
+        <li><strong>Peón de Mantenimiento</strong> – Calypso Pet’s Shop (2022-2024)</li>
+        <li><strong>Empleado de Tienda</strong> – Catania Hipermercado (2021)</li>
+        <li><strong>Ayudante de Cocina</strong> – Moana Pokes (2022)</li>
+        <li><strong>Producción de Alimentos</strong> – Empanadas Mafalda (2022)</li>
+      </ul>
+    </section>
+
+    <section id="habilidades">
+      <h2>🧠 Habilidades</h2>
+      <ul>
+        <li>Desarrollo en Godot (GDScript, IA, máquinas de estados)</li>
+        <li>Diseño narrativo para videojuegos</li>
+        <li>Manejo básico de Excel, entornos web y redes sociales</li>
+        <li>Idiomas: Español (nativo), Inglés (intermedio)</li>
+        <li>Soft skills: creatividad, adaptabilidad, trabajo en equipo</li>
+      </ul>
+    </section>
+
+    <section id="proyectos">
+      <h2>🎮 Proyectos destacados</h2>
+      <ul>
+        <li><strong>Juego de Terror 2D</strong> – IA de patrullaje, sistema de escenas en Godot</li>
+        <li><strong>Pokémon Esmeralda Fangame</strong> – Reimaginación con mecánicas propias</li>
+        <li><strong>RPG de Amor y Profecías</strong> – Historia episódica con narrativa profunda</li>
+      </ul>
+      <p>🔗 <a href="https://github.com/Rafart132" target="_blank">Ver mis proyectos en GitHub</a></p>
+    </section>
+
+    <section id="contacto">
+      <h2>📬 Contacto</h2>
+      <p>Email: <a href="mailto:alejandrobocourt132@gmail.com">alejandrobocourt132@gmail.com</a></p>
+      <p>Ubicación: Montevideo, Uruguay</p>
+      <p>📄 <a href="Cv_Alejandro_Medina.pdf" download>Descargar CV en PDF</a></p>
+    </section>
+  </main>
 
   <footer>
-    &copy; 2025 Raphart - Todos los derechos reservados.
+    <p>&copy; 2025 Raphart. Todos los derechos reservados.</p>
   </footer>
 
+  <script>
+    // Animaciones simples con fade-in al hacer scroll
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
 </body>
 </html>
